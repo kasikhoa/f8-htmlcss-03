@@ -33,7 +33,7 @@ a {
     min-width: 205px;
     height: var(--height);
     padding: 0 20px;
-    border-radius: 999px;
+    border-radius: 99px;
     font-size: 1.6rem;
     font-weight: 400;
     border: 1px solid #2e80ce;
@@ -504,6 +504,7 @@ a {
 }
 
 .member-item__title {
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.86;
     color: #575f66;
@@ -556,10 +557,10 @@ a {
     padding: 85px 0;
 }
 
-.news_inner {
+.news__inner {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .news__content {
